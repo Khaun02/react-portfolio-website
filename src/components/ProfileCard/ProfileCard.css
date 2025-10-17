@@ -1,0 +1,23 @@
+.card {
+    padding: 20px;
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.intro_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    color: #9ca3af;
+}
+
+.intro_bio {
+    margin-top: 1rem;
+}

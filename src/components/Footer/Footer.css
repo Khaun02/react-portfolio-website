@@ -1,0 +1,8 @@
+footer {
+    max-width: 60rem;
+    text-align: center;
+    margin: 0 auto 2rem;
+    border-top: 1px solid #313131;
+    padding-top: 1rem;
+    margin-top: 5rem;
+}

@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    padding: 1rem;
+}

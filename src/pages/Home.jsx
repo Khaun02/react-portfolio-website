@@ -1,20 +1,18 @@
-import ProjectCard from "../components/ProjectCard/ProjectCard"
-import ProfileCard from "../components/ProfileCard/ProfileCard"
+import ProjectSection from "../components/ProjectSection/ProjectSection.jsx";
+import ProfileCard from "../components/ProfileCard/ProfileCard";
+import TechStack from "../components/TechStack/TechStack.jsx"
+import ExperienceSection from "../components/ExperienceSection/ExperienceSection.jsx"
+import useTitle from "../components/DynamicTitle/useTitle.jsx";
 
 function Home() {
-
-    const projects = [
-        { id: 1, title: "Shaun's Portfolio Webiste (Archived)", description: "My old portfolio website created with vanilla HTML, CSS, and Javascript." },
-        { id: 2, title: "Choua's Portfolio Website", description: "Website that showcases Choua's skills, experience, and contact information." },
-        { id: 3, title: "Crown Coffee Website", description: "Final project created for Website Development course for a ficticious coffee website." }
-    ]
-
+    useTitle("");
     return (
         <main className="content">
             <ProfileCard />
-            <div className="movies-row">
-                {projects.map(project => <ProjectCard project={project} key={project.id} />)}
-            </div>
+            <TechStack />
+            <ExperienceSection />
+            <h1 className="m-8">My work</h1>
+            <ProjectSection />
         </main>
     )
 }

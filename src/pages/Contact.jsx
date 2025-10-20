@@ -1,8 +1,12 @@
-import React from 'react'
+import ContactCard from "../components/ContactCard/ContactCard"
+import useTitle from "../components/DynamicTitle/useTitle";
 
 function Contact() {
+    useTitle("Contact Me")
     return (
-        <div>Contact me</div>
+        <main className="content">
+            <ContactCard />
+        </main>
     )
 }
 

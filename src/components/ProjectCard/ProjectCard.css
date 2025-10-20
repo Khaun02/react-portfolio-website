@@ -1,3 +1,7 @@
-.project-card {
-    border: 1px solid white;
+a {
+    color: white;
+}
+
+.project_card {
+    height: 500px;
 }

@@ -1,0 +1,15 @@
+.social-media-container {
+    margin-top: 40px;
+}
+
+.social {
+    transition: ease .2s all;
+    opacity: 1;
+}
+
+@media screen and (max-width: 65rem) {
+    .social-media-container {
+        gap: 4rem;
+        flex-direction: column;
+    }
+}

@@ -2,12 +2,18 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    font-family: var(--font-mono);
 }
 
-.navbar-brand {
+.navbar .logo{
     font-weight: bold;
 }
 
 .nav-link {
     padding: 1rem;
 }
+
+.navbar * {
+    color: white;
+}
+

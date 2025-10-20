@@ -12,7 +12,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+.name, .social_media{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.social_media a {
+    color: white;
+}
+
 
 .location {
     color: #9ca3af;
@@ -20,4 +32,8 @@
 
 .intro_bio {
     margin-top: 1rem;
+}
+
+.card h1 {
+    margin: 0;
 }

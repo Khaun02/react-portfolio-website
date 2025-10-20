@@ -3,12 +3,10 @@ import "./ProfileCard.css";
 function ProfileCard() {
     return (
         <div className="card">
-            <div className="intro_header">
+            <div className="">
                 <div className="intro_section">
-                    <div>
-                        <h1>Shaun Khang</h1>
-                    </div>
-                    <div className="social_media">
+                    <h1 className="name custom">Shaun Khang</h1>
+                    <div className="social_media custom">
                         <a href="mailto:khaunx02@gmail.com" target="_blank" rel="noopener noreferrer">Email </a>
                         <a href="https://github.com/Khaun02/" target="_blank" rel="noopener noreferrer">Github </a>
                         <a href="https://www.linkedin.com/in/shaunkhang/" target="_blank" rel="noopener noreferrer">LinkedIn</a>

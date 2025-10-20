@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
                     <img src={project.image_url} alt={project.title} className="absolute left-0 top-0 h-full w-full border-none transition-all duration-300 ease-out opacity-70 [mask-image:linear-gradient(to_top,transparent_20%,#000_100%)] group-hover:scale-105 object-cover" />
                 </div>
                 <div className="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10 custom">
-                    <h2 className="text-xl font-semibold text-neutral-700 dark:text-neutral-300 m-0 custom">{project.title}</h2>
+                    <h2 className="text-xl font-semibold m-0 custom">{project.title}</h2>
                     <p className="max-w-lg text-neutral-400 m-0 custom">{project.description}</p>
                 </div>
             </div>

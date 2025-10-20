@@ -4,9 +4,9 @@ function AboutMe() {
     return (
         <>
             <h1 id="about_me">About me</h1>
-            <p className="m-4">I have been engaged in professional Web Development for 1 year now. I create Full-Stack websites with a minimalist look and speed. I also focus on website accessibility, website optimization and SEO.</p>
-            <p className="m-4">I like minimalism. I stand by the fact that the website should not be full of ads and trackers. I also use React sometimes.</p>
-            <p className="m-4">I also create problem-solving applications. Check out my Projects to see some software I've created.</p>
+            <p className="m-4">I’ve been creating websites and apps for about a year now. I build full-stack projects that look clean, run fast, and feel good to use. Most of my work leans toward React and front-end development, but I also enjoy the behind-the-scenes parts that make everything connect and run smoothly.</p>
+            <p className="m-4">I design with the user in mind first. Every button, section, and animation should serve a purpose. If it doesn’t make the experience better, it doesn’t belong.</p>
+            <p className="m-4">I like solving problems with code. Some of my projects make everyday tasks easier, others help organize teams or manage data. Check out my projects to see what I’ve built and what I’m experimenting with next.</p>
         </>
     )
 }

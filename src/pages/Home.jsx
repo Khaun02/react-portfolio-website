@@ -12,7 +12,9 @@ function Home() {
             <TechStack />
             <ExperienceSection />
             <h1 className="m-8">My work</h1>
-            <ProjectSection />
+            <ProjectSection pageType="portfolio" />
+            <h1 className="m-8">My personal projects</h1>
+            <ProjectSection pageType="software" />
         </main>
     )
 }

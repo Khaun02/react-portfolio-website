@@ -1,0 +1,11 @@
+.prog-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.prog-card span {
+    margin-left: 1rem;
+}

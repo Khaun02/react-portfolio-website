@@ -21,6 +21,11 @@
     margin-right: 0;
 }
 
+.social_media {
+    display: flex;
+    gap: 1rem;
+}
+
 .social_media a {
     color: white;
 }

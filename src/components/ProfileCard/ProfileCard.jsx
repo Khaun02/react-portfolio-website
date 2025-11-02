@@ -10,13 +10,13 @@ function ProfileCard() {
 
                     <div className="social_media custom">
                         <a href="mailto:khaunx02@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <SVGProg language="HTML" showLanguage={false} />
+                            <SVGProg language="Email" showLanguage={false} />
                         </a>
                         <a href="https://github.com/Khaun02/" target="_blank" rel="noopener noreferrer">
                             <SVGProg language="Git" showLanguage={false} />
                         </a>
                         <a href="https://www.linkedin.com/in/shaunkhang/" target="_blank" rel="noopener noreferrer">
-                            <SVGProg language="JavaScript" showLanguage={false} />
+                            <SVGProg language="LinkedIn" showLanguage={false} />
                         </a>
                     </div>
                 </div>

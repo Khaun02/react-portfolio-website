@@ -4,6 +4,8 @@ import JavaScriptSVG from './JavaScriptSVG'
 import ReactSVG from './ReactSVG'
 import NodeJSSVG from './NodeJSSVG'
 import GitSVG from "./GitSVG"
+import EmailSVG from "./EmailSVG"
+import LinkedInSVG from "./LinkedInSVG"
 
 export const SVG_MAP = {
   HTML: HTMLSVG,
@@ -12,4 +14,6 @@ export const SVG_MAP = {
   React: ReactSVG,
   NodeJS: NodeJSSVG,
   Git: GitSVG,
+  Email: EmailSVG,
+  LinkedIn: LinkedInSVG
 }

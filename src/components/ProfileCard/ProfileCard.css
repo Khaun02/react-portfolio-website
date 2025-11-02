@@ -10,6 +10,8 @@
 
 .intro_section {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     justify-content: space-between;
     align-items: center;
     margin-left: 0;
@@ -41,4 +43,11 @@
 
 .card h1 {
     margin: 0;
+}
+
+@media screen and (max-width: 896px){
+    .social_media a *{
+        height: 35px;
+        width: 35px;
+    }
 }
